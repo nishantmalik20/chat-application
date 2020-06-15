@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <script src="js/index.js"></script>
+    <!-- <h1>Private Chat 🤫</h1> -->
+    
+    <div id="message"></div>
+    <form id="send-field">
+        <input type="text" id="write-msg">
+        <button type="submit" id="button">Send</button>
+    </form>
 </body>
-
+<script src="/socket.io/socket.io.js"></script> 
+<script src="js/index.js"></script>
 </html>
